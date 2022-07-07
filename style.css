@@ -1,0 +1,176 @@
+*{
+
+
+}
+html {
+    background: url(/pics/HAKAM2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+h3  {
+    font-family: "Press Start 2p";
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+
+}
+
+
+.welcome {
+    border-bottom: 2px dashed cyan;
+
+
+    font-family: "Press Start 2p";
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+
+}
+
+body {
+
+    /* font-family: "Press Start 2p";
+    font-weight: bold; */
+    /* text-align: center; */
+    /*background-image: url(/pics/HAKAM2.jpg);*/
+
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+
+
+    /*position: absolute;*/
+
+
+    /*height: ;*/  background-image: url(/pics/HAKAM2.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+    /*width: 100vh;*/
+
+}
+.wise{
+    text-align: center  ;
+    color: lightblue;
+    font-family: "Press Start 2p";
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 100px;
+}
+.anim {
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/pics/dark2.jpg);
+    border-radius: 10px;
+    width: 500px;
+    opacity: 80%;
+
+    font-family: "Droid Arabic Kufi";
+    color: cyan;
+    font-size: 22px;
+
+    animation: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.droid-arabic-kufi {
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+.formz {
+    text-align: center;
+    border: 2px dashed black;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    margin: 10px;
+    margin-bottom: 200px;
+    padding: 10px;
+    font-family: "Press Start 2p";
+    font-size: 10px;
+
+
+}
+
+.voice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.links{
+    text-align: center;
+    font-family: "Press Start 2p";
+
+    margin: 70px;
+    padding: 10px;
+}
+.fa-facebook {
+
+    width: 200px;
+    font-size: 3em;
+    height: 100px;
+    color: #4267B2;
+
+}
+.fa-youtube{
+    font-size: 3em;
+    height: 100px;
+
+    color: red;
+}
+
+
+@keyframes move {
+    from{
+        margin-left: 0%;
+
+    }
+    to{
+        margin-left: 100%;
+
+
+    }
+
+}
+
+.slect1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.b1 {
+
+    text-align: center;
+
+}
